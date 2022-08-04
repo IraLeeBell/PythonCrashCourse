@@ -1,0 +1,10 @@
+first_name = "issac"
+last_name = "asimov"
+full_name = f"{first_name} {last_name}"
+full_name_proper = f"{full_name.title()}"
+quote = "\n\tYour assumptions are your windows on the world."
+quote_cont = "\n\tScrub them off every once in a while,"
+quote_cont_further = "\n\tor the light won't come in."
+full_quote = f"{quote} {quote_cont} {quote_cont_further}"
+message = f"\n\t{full_name_proper} once said, {full_quote}"
+print(message)
