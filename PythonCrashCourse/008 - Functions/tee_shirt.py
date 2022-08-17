@@ -8,3 +8,5 @@ sizeinput = input("\nWhat size tee-shirt do you need? Large, Medium or Small? ")
 messageinput = input("\nWhat would you like the tee shirt message to be? ")
 
 tee_shirt(sizeinput, messageinput)
+
+tee_shirt(size = sizeinput, message = messageinput)
