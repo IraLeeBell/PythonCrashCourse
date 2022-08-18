@@ -11,4 +11,4 @@ from pizza_module import *
 # without the "pizza_module." notation..
 
 make_pizza(16, 'pepperoni')
-make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese', 'ham', 'extra sausage')
