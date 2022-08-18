@@ -5,6 +5,6 @@ def make_car(manufacturer, model, **kwargs):
 	return kwargs
 
 new_car = make_car('honda','accord')
-another_new_car = make_car('mercedes','g-wagon',color='black',upgrade_1='AMG',upgrade_2='22 inch wheels',upgrade_3='driver assist')
+another_new_car = make_car('mercedes','g-wagon',color='black',upgrade_1='AMG',upgrade_2='22 inch wheels',upgrade_3='driver assist', extended_warranty=True, miles_on_delivery=18)
 print(f"\n{new_car}")
 print(f"\n{another_new_car}")
