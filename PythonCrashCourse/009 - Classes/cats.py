@@ -18,3 +18,12 @@ print(f"My cat is {my_cat.age} years old.")
 my_cat.rollover()
 
 my_cat.sit()
+
+your_cat = Cat('Slinky',12)
+
+print(f"Your cat's name is {your_cat.name}")
+print(f"Your cat is {your_cat.name} years old.")
+
+your_cat.rollover()
+
+your_cat.sit()
