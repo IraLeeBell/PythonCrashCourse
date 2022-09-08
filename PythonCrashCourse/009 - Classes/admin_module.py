@@ -1,5 +1,7 @@
+from user_module import Users
+
 class Privileges:
-	def get_privileges3(self):
+	def get_privileges(self):
 		privileges3=['can add post', 'can delete post', 'can ban user']
 		return privileges3
 
