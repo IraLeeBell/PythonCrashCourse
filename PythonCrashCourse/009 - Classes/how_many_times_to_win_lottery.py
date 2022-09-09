@@ -32,7 +32,7 @@ while looping:
 		print(f'drawn numbers of {white_draw} and {red_draw}')
 		looping = False
 	else:
-		continue
+		x += 1
 
 
 
