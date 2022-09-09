@@ -17,8 +17,7 @@ print("\nLet's see how many draws it takes for you to get all 5 numbers")
 print(f'plus the powerball...')
 
 x = 0
-y = 0
-z = 0
+
 looping = True
 
 while looping:
