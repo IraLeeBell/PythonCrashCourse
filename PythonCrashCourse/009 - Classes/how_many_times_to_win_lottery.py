@@ -32,9 +32,7 @@ while looping:
 		print(f'drawn numbers of {white_draw} and {red_draw}')
 		looping = False
 	else:
-		x += 1
-		if x == 100000000 or x == 200000000 or x == 300000000 or x == 350000000 or x == 400000000:
-			print('"{:,}".format(x)')
+		continue
 
 
 
