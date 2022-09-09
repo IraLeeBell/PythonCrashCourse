@@ -27,14 +27,14 @@ while looping:
 
 	if my_ticket_white_draw[0] in white_draw and my_ticket_white_draw[1] in white_draw and my_ticket_white_draw[2] in white_draw and my_ticket_white_draw[3] in white_draw and my_ticket_white_draw[4] in white_draw and my_ticket_red_draw[0] in red_draw:
 		print("\nYou have won the lottery!")
-		print(f"It took {x} draws for that to happen.")
-		print(f'Your numbers of {my_ticket_white_draw} and {myticket_red_draw} match the')
+		print(f'It took {"{:,}".format(x)} draws for that to happen.')
+		print(f'Your numbers of {my_ticket_white_draw} and {my_ticket_red_draw} match the')
 		print(f'drawn numbers of {white_draw} and {red_draw}')
 		looping = False
 	else:
 		x += 1
-		if x > 500000
+		if x == 100000000 or x == 200000000 or x == 300000000 or x == 350000000 or x == 400000000:
 			print(x)
-			
+
 
 
