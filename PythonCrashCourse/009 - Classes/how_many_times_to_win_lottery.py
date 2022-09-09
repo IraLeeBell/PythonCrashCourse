@@ -34,7 +34,7 @@ while looping:
 	else:
 		x += 1
 		if x == 100000000 or x == 200000000 or x == 300000000 or x == 350000000 or x == 400000000:
-			print(x)
+			print('"{:,}".format(x)')
 
 
 
