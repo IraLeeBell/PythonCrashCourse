@@ -32,6 +32,3 @@ while looping:
 		looping = False
 	else:
 		x += 1
-
-
-
